@@ -11,4 +11,5 @@ if(!file_exists(dirname(__FILE__).'/Conf/conn.php')){
 }else{
 	define('APP_DEBUG',true);
 	require('Sys/ThinkPHP/ThinkPHP.php');
+	//essss;
 }
